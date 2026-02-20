@@ -54,15 +54,15 @@ Eg: test_login.py
 >UI test for login functionality,
 >Uses Playwright page fixture,
 >Uses LoginPage from pages folder,
-***Tests should only contain assertions and test flow.***
+***Tests should only contain assertions and test flow***
 
-3) Conftest.py
+3} Conftest.py
 This is the heart of the framework.
 Responsibilities:
 >Manages Playwright browser lifecycle,
 >Creates reusable pytest fixtures,
 >Provides page fixture to all tests,
-***Avoids duplicate setup code in tests.***
+***Avoids duplicate setup code in tests***
 
 4} pytest.ini
 Pytest configuration file.
